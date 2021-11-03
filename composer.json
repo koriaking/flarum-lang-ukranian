@@ -1,0 +1,53 @@
+{
+    "name": "koriaking/flarum-lang-ukranian",
+    "description": "Ukrainian language pack for Flarum.",
+    "type": "flarum-extension",
+    "keywords": [
+        "locale",
+        "flarum",
+        "language",
+        "translation",
+        "ukranian"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/koriaking/flarum-lang-ukranian",
+    "support": {
+        "issues": "https://github.com/koriaking/flarum-lang-ukranian/issues",
+        "source": "https://github.com/koriaking/flarum-lang-ukranian"
+    },
+    "authors": [
+        {
+            "name": "Yevhen Koriakin",
+            "email": "yevhen.koriakin@gmail.com",
+            "homepage": "https://github.com/koriaking"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Ukrainian",
+            "category": "language",
+            "info": {
+                "website": "https://github.com/koriaking/flarum-lang-ukranian",
+                "support": "https://github.com/koriaking/flarum-lang-ukranian/issues"
+            },
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "uk",
+            "title": "Українська"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
